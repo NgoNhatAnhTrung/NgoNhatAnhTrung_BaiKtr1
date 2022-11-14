@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/imageviewHinh"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/textviewTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageviewHinh"
+        android:text="Tên Ca Sĩ"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewNgheDanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTen"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageviewHinh"
+        android:text="Nghệ danh"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textviewQuocGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTen"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="-31dp"
+        android:layout_marginEnd="35dp"
+        android:layout_toEndOf="@+id/textviewTen"
+        android:layout_toRightOf="@+id/imageviewHinh"
+        android:text="Việt Nam"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewSoSao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTen"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="56dp"
+        android:layout_toEndOf="@+id/textviewTen"
+        android:layout_toRightOf="@+id/imageviewHinh"
+        android:text="5 sao"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
